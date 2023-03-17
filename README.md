@@ -1,4 +1,5 @@
 # Fake-Heart-Sensor-Data-Using-Python-and-Kafka
+# SETP 1: DOWNLOAD KAFKA
 
 # Download and Setup Kafka on Windows and Linux
 
@@ -47,3 +48,20 @@ Once you have downloaded the Kafka binaries, follow the steps below to set up Ka
 5. Open a new terminal window and navigate to the Kafka directory.
 6. Edit the `server.properties` file and replace the `log.dirs` property with a directory path where you want to store Kafka logs.
 7. Start Kafka by running the following command from the Kafka directory:bin/kafka-server-start.sh config/server.properties
+
+# STEP 2 : Running python script
+
+### Run kafka server
+### pip install -r requirements.txt
+
+
+### How to use producer
+1. go to terminal where the python code producer.py is and type `python producer.py`
+
+### How to use consumer
+#### Use consumer to run stream of fake heart data
+1. go to terminal where the consumer.py is and type `python consumer.py stream`
+
+#### Use consumer to create dataset of fake heart data
+1. go to terminal where the consumer.py is and type `python consumer.py dataset`
+
