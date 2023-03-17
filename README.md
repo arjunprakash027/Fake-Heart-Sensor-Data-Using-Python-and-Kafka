@@ -58,10 +58,11 @@ Once you have downloaded the Kafka binaries, follow the steps below to set up Ka
 ### How to use producer
 1. go to terminal where the python code producer.py is and type `python producer.py`
 
-### How to use consumer
+### How to use consumer (producer must be running in order to use this command)
 #### Use consumer to run stream of fake heart data
 1. go to terminal where the consumer.py is and type `python consumer.py stream`
 
-#### Use consumer to create dataset of fake heart data
+#### Use consumer to create dataset of fake heart data (dataset.json must be present in order to run this command)
+(dataset.json is automatically formed when running stream using `python consumer.py stream` command)
 1. go to terminal where the consumer.py is and type `python consumer.py dataset`
 
