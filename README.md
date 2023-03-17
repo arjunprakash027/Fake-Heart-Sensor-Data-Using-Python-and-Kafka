@@ -1,5 +1,5 @@
 # Fake-Heart-Sensor-Data-Using-Python-and-Kafka
-# SETP 1: DOWNLOAD KAFKA
+# STEP 1: DOWNLOAD KAFKA
 
 # Download and Setup Kafka on Windows and Linux
 
