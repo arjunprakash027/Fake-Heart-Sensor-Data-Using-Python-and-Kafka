@@ -1,4 +1,3 @@
 pandas
-kafka
-json
+kafka-python
 faker

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  myapp:
+    build:
+      context: .
+    entrypoint: sh -c "chmod +x run.sh && apt-get update -y && apt-get upgrade -y pip && pip install --upgrade pip && pip install -r requirements.txt && ./run.sh"
+    ports:
+      - "9092:9092"
+    volumes:
+      - .:/app
